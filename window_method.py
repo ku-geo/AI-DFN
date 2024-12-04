@@ -3,10 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 
-file_path = 'data_1.pkl'
-font_path = '/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf'
-font_prop = font_manager.FontProperties(fname=font_path)
-
 def is_detect_window(point1, point2, point0, r):
     distance1 = np.linalg.norm(point1 - point0)
     distance2 = np.linalg.norm(point2 - point0)

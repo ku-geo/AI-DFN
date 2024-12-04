@@ -6,7 +6,7 @@ from jax import numpy as jnp
 from matplotlib import pyplot as plt
 
 import window_method
-from paratest_env import ParaState, Paratest, targetdata, reward
+from dfn_env import ParaState, Paratest, reward
 import joblib
 
 
